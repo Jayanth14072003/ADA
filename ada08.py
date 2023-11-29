@@ -33,4 +33,5 @@ alist = input('Enter the list of numbers: ').split()
 alist = [int(x) for x in alist]
 merge_sort(alist,0,len(alist))
 print('Sorted list: ', end='')
-print(alist)
+print(alist)
+
