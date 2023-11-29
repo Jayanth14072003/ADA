@@ -24,4 +24,5 @@ graph = [
  [15,35,25,0]
 ]
 s = 0
-print(tsp(graph, s))
+print(tsp(graph, s))
+
