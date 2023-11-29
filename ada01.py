@@ -12,5 +12,6 @@ Selection_Sort(array)
 print('List after sorting is : ', end='')
 print(array)
 
- 
+ 
+
  
