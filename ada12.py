@@ -6,9 +6,9 @@ def findinoutdegree(adjlist,n):
   out[i] = len(list)
   for j in range(0,len(list)):
    _in[list[j]]+=1
-   print("vertex\tin\tout")
-   for k in range(0,n):
-    print(str(k) + "\t" +str(_in[k])+ "\t" + str(out[k]))
+ print("vertex\tin\tout")
+ for k in range(0,n):
+  print(str(k) + "\t" +str(_in[k])+ "\t" + str(out[k]))
 if __name__=="__main__":
  adjlist=[]
  adjlist.append([1,2])
